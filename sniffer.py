@@ -3,8 +3,11 @@
 import argparse
 # A Built-in python module which can accept command-line arguments
 import datetime
+# To timestamp the packet
 import sys
+# To interact with python runtime environment and the operating system
 from textwrap import shorten
+# To show only few parts of payload(truncate the strings)
 
 try:
     from scapy.all import sniff, Ether, IP, TCP, UDP, ICMP, Raw, wrpcap
@@ -139,5 +142,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
