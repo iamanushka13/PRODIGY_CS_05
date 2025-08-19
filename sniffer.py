@@ -1,20 +1,4 @@
 #!/usr/bin/env python3
-"""
-Educational Packet Sniffer (for lawful, ethical use only)
-
-- Captures packets on a given interface
-- Prints source/destination IPs, protocol, ports (if TCP/UDP), and a short payload preview
-- Optional BPF filter (e.g., "tcp", "udp", "port 80", "host 8.8.8.8")
-- Can save captured packets to a PCAP for later analysis
-
-Requirements:
-  pip install scapy
-
-Notes:
-  • Run with admin/root privileges (Linux/macOS: sudo; Windows: Administrator).
-  • Windows users: install Npcap.
-  • Only sniff traffic you are authorized to monitor (your own machine/network), for learning/testing.
-"""
 
 import argparse
 import datetime
@@ -154,3 +138,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
