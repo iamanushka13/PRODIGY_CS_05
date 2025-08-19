@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+# A Built-in python module which can accept command-line arguments
 import datetime
 import sys
 from textwrap import shorten
@@ -138,4 +139,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
