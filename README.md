@@ -26,7 +26,6 @@ Do **not** use it on networks you don’t own or have explicit permission to mon
 Run with **Administrator**.
 
 ## Basic capture
-```bash
 python sniffer.py -i "Wi-Fi" -c 20
 
 -i → Network interface name (e.g., Wi-Fi, Ethernet)
